@@ -11299,3 +11299,60 @@ textarea.form-control-lg {
   background-color: white;
   border: none;
 }
+
+/*post1*/
+#post1{
+  background-color: #F3F3F3;
+}
+.post_container{
+  text-align: center;
+  font-family: "fontawesome";
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.post_left{
+  flex-basis: 40%;
+  padding: 40px 40px;
+}
+.post_image{
+  width: 300px;
+  height: 200px;
+}
+
+.post_right{
+  flex-basis: 40%;
+  padding: 40px 40px;
+  display: block;
+}
+.post_name{
+  display: inline;
+  font-size: 24px;
+}
+.post_name i{
+  margin-right: 10px;
+}
+.introduction,.operating_hour{
+  margin-bottom: 20px;
+}
+.post_title{
+  display: inline;
+  font-size:large;
+}
+.post_title i{
+  margin-right: 10px;
+}
+.post_description{
+  text-align: left;
+}
+/* For below 768px screen width */
+@media screen and (max-width: 768px){
+  :root{
+    --font-large: 30px;
+  }
+  .post_container{
+    flex-direction: column;
+  }
+}
+  
