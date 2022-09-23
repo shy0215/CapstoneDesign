@@ -11336,16 +11336,22 @@ textarea.form-control-lg {
 .introduction,.operating_hour{
   margin-bottom: 20px;
 }
+.post_title_name{
+  margin-top: 20px;
+}
 .post_title{
   display: inline;
   font-size:large;
 }
-.post_title i{
+.post_title i, .post_name i{
   margin-right: 10px;
+  color: #0d6efd;
+  
 }
 .post_description{
   text-align: left;
 }
+
 /* For below 768px screen width */
 @media screen and (max-width: 768px){
   :root{
